@@ -1,0 +1,44 @@
+// Function to demonstrate if-else conditions
+function checkNumber(num) {
+    if (num > 0) {
+        console.log(`${num} is a positive number.`);
+    } else if (num < 0) {
+        console.log(`${num} is a negative number.`);
+    } else {
+        console.log(`${num} is zero.`);
+    }
+}
+
+// Test cases
+checkNumber(10);  // 10 is a positive number.
+checkNumber(-5);  // -5 is a negative number.
+checkNumber(0);   // 0 is zero.
+
+// Function to demonstrate nested if-else
+function checkRange(num) {
+    if (num >= 1 && num <= 10) {
+        console.log(`${num} is in the range 1-10.`);
+    } else if (num > 10 && num <= 20) {
+        console.log(`${num} is in the range 11-20.`);
+    } else {
+        console.log(`${num} is outside the range 1-20.`);
+    }
+}
+
+// Test cases
+checkRange(5);    // 5 is in the range 1-10.
+checkRange(15);   // 15 is in the range 11-20.
+checkRange(25);   // 25 is outside the range 1-20.
+
+// Function to demonstrate if-else with multiple conditions
+function checkEvenOdd(num) {
+    if (num % 2 === 0) {
+        console.log(`${num} is an even number.`);
+    } else {
+        console.log(`${num} is an odd number.`);
+    }
+}
+
+// Test cases
+checkEvenOdd(8);  // 8 is an even number.
+checkEvenOdd(13); // 13 is an odd number.
